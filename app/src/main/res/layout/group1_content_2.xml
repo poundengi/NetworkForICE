@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:background="@drawable/f2"
+    android:weightSum="6">
+
+    <TextView
+        android:id="@+id/screen_desc"
+        android:text="FIBER OPTIC"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:gravity="center|center_horizontal"/>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/screen_heading"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:gravity="top"
+            android:text="@string/content2_1" />
+        <TextView
+            android:id="@+id/screen_heading2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:layout_marginTop="18dp"
+            android:textSize="18dp"
+            android:textColor="#ffff"
+            android:gravity="top"
+            android:text="@string/content2_2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:layout_marginTop="36dp"
+            android:textSize="18dp"
+            android:textColor="#ffff"
+            android:gravity="top"
+            android:text="@string/content2_3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:layout_marginTop="52dp"
+            android:textSize="18dp"
+            android:textColor="#ffff"
+            android:gravity="top"
+            android:text="@string/content2_4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:layout_marginTop="72dp"
+            android:textSize="18dp"
+            android:textColor="#ffff"
+            android:gravity="top"
+            android:text="@string/content2_5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:layout_marginTop="112dp"
+            android:textSize="20dp"
+            android:textColor="#ffff"
+            android:gravity="top"
+            android:text="@string/content2_6"/>
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:layout_marginTop="132dp"
+                android:textSize="20dp"
+                android:textColor="#ffff"
+                android:gravity="top"
+                android:text="@string/content2_7"/>
+        </ScrollView>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>

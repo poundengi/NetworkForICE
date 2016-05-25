@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:background="@drawable/f1"
+    android:weightSum="6">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/screen_desc"
+            android:text="FIBER OPTIC"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:textSize="30dp"
+            android:textColor="#ffff"
+            android:background="#000000"
+            android:gravity="center|center_horizontal"/>
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/screen_heading"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:gravity="top"
+            android:text="@string/content3_5"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/f33"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/screen_desc1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:gravity="top"
+            android:text="@string/content3_6"/>
+        </ScrollView>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>
