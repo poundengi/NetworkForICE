@@ -1,6 +1,7 @@
 package com.chonlavit.networkforice;
 
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -10,41 +11,66 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.MediaController;
+import android.widget.VideoView;
 
 import com.nineoldandroids.view.ViewHelper;
 
 
 public class Group6 extends AppCompatActivity {
 
-    static final int TOTAL_PAGES = 7;
+   // static final int TOTAL_PAGES = 7;
 
-    ViewPager pager;
-    PagerAdapter pagerAdapter;
-    LinearLayout circles;
-    Button btnSkip;
-    Button btnDone;
-    ImageButton btnNext;
-    boolean isOpaque = true;
+
+    private VideoView myVideoView;
+  //  ViewPager pager;
+  //  PagerAdapter pagerAdapter;
+  //  LinearLayout circles;
+  //  Button btnSkip;
+   // Button btnDone;
+    //ImageButton btnNext;
+   // boolean isOpaque = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        Window window = getWindow();
-//        window.setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS, WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+       Window window = getWindow();
+      window.setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS, WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
 
-        setContentView(R.layout.home_group5);
-        btnSkip = Button.class.cast(findViewById(R.id.btn_skip));
-        btnSkip.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                endTutorial();
-            }
-        });
+        myVideoView = (VideoView) findViewById(R.id.videoView);
 
+
+
+     //  myVideoView.setVideoPath("android.resource:http://ice.pbru.ac.th/ICE56/SakrapeeS/PictureFiber/video/fiber3cutfiber.mp4");
+
+        //controll
+      /*  MediaController objMediaController = new MediaController(this);
+        objMediaController.setAnchorView(myVideoView);
+        myVideoView.setMediaController(objMediaController);
+        myVideoView.start();*/
+        myVideoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.fiber1work));
+
+        myVideoView.setMediaController(new MediaController(this));
+
+        myVideoView.requestFocus();
+
+        myVideoView.start();
+
+     //   setContentView(R.layout.home_group5);
+     //   btnSkip = Button.class.cast(findViewById(R.id.btn_skip));
+      //  btnSkip.setOnClickListener(new View.OnClickListener() {
+      //      @Override
+      //      public void onClick(View v) {
+       //         endTutorial();
+       //     }
+      //  });
+/*
         btnNext = ImageButton.class.cast(findViewById(R.id.btn_next));
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -242,6 +268,8 @@ public class Group6 extends AppCompatActivity {
                 }
             }
         }
+
+        }*/
     }
 }
 

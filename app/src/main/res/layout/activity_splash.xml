@@ -20,11 +20,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/editText"
-        android:text="ICE56"
+        android:text="I.C.E. 56"
         android:textSize="30sp"
         android:textColor="#fff"
+        android:gravity="center_horizontal"
         android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/imageView"
-        android:layout_alignStart="@+id/imageView" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

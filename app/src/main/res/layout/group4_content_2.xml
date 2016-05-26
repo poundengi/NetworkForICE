@@ -31,21 +31,23 @@
         android:layout_height="0dp"
         android:layout_weight="5">
         <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
             android:paddingLeft="24dp"
             android:paddingRight="24dp"
-            android:src="@drawable/t3"
-            android:gravity="center|center_horizontal"/>
+            android:src="@drawable/tes3"
+            android:gravity="center|center_horizontal"
+            android:layout_marginTop="20dp" />
         <ImageView
             android:id="@+id/im_bt"
             android:layout_width="wrap_content"
-            android:layout_height="150dp"
+            android:layout_height="200dp"
             android:paddingLeft="24dp"
             android:paddingRight="24dp"
             android:textSize="30dp"
-            android:src="@drawable/t5"
-            android:layout_alignParentBottom="true"/>
+            android:src="@drawable/tes4"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
     </RelativeLayout>
 
 

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">NetworkForICE</string>
+    <string name="app_name">Network Fiber Optic Basic</string>
     <string name="content1">เส้นใยแก้วนำแสง คือ เส้นใยขนาดเล็กที่ทำหน้าที่เป็นตัวนำแสง  โครงสร้างของเส้นใยแสงประกอบด้วยส่วนที่แสงเดินทางผ่านเรียกว่า CORE และส่วนที่หุ้มCORE อยู่เรียกว่า CLAD ทั้ง CORE
 และ CLAD เป็นDIELECTRIC ใส 2 ชนิด
 (DIELECTRIC หมายถึงสารที่ไม่เป็นตัวนำไฟฟ้า เช่น แก้ว พลาสติก) โดยการทำให้ค่าดัชนีการหักเหของ CLAD มีค่าน้อยกว่าค่าดัชนีการหักเหของCOER
