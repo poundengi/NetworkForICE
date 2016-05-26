@@ -5,7 +5,7 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:orientation="vertical"
 android:clipChildren="false"
-android:background="@android:color/holo_purple"
+android:background="@color/switch_thumb_normal_material_light"
 android:weightSum="6">
 
 <RelativeLayout
@@ -58,14 +58,15 @@ android:weightSum="6">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="New Text"
+        android:text="เครื่องมือหลักในการใช้ปฏิบัติการ"
         android:id="@+id/textView4"
-        android:textSize="20dp"
+        android:textSize="18dp"
+        android:gravity="center_horizontal"
         android:layout_below="@+id/imageView4"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="false"
-        android:gravity="center_horizontal" />
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
 

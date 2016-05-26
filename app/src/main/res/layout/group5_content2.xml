@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:clipChildren="false"
-    android:background="@android:color/holo_purple"
+    android:background="@color/switch_thumb_normal_material_light"
     android:weightSum="6">
 
     <RelativeLayout
@@ -22,7 +22,8 @@
             android:textSize="30dp"
             android:textColor="#ffff"
             android:background="#000000"
-            android:gravity="center|center_horizontal"/>
+            android:gravity="center|center_horizontal"
+            android:layout_marginTop="5dp" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -32,7 +33,7 @@
         android:layout_weight="5">
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="170dp"
             android:paddingLeft="24dp"
             android:paddingRight="24dp"
             android:src="@drawable/ft2"
@@ -41,7 +42,7 @@
         <ImageView
             android:id="@+id/im_bt"
             android:layout_width="wrap_content"
-            android:layout_height="150dp"
+            android:layout_height="200dp"
             android:paddingLeft="24dp"
             android:paddingRight="24dp"
             android:textSize="30dp"

@@ -22,7 +22,8 @@
             android:textSize="30dp"
             android:textColor="#ffff"
             android:background="#000000"
-            android:gravity="center|center_horizontal"/>
+            android:gravity="center|center_horizontal"
+            android:layout_marginTop="5dp" />
     </RelativeLayout>
 
     <RelativeLayout

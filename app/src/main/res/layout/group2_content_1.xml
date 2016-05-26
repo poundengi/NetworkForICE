@@ -22,7 +22,8 @@
             android:textSize="30dp"
             android:textColor="#ffff"
             android:background="#000000"
-            android:gravity="center|center_horizontal"/>
+            android:gravity="center|center_horizontal"
+            android:layout_marginTop="5dp" />
     </RelativeLayout>
 
 
@@ -34,7 +35,8 @@
         android:layout_weight="5">
         <ScrollView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
             <TextView
                 android:id="@+id/screen_heading"
                 android:layout_width="match_parent"

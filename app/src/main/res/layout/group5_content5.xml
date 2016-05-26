@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:clipChildren="false"
-    android:background="@android:color/holo_blue_dark"
+    android:background="@color/switch_thumb_normal_material_light"
     android:weightSum="6">
 
     <RelativeLayout
@@ -22,7 +22,8 @@
             android:textSize="30dp"
             android:textColor="#ffff"
             android:background="#000000"
-            android:gravity="center|center_horizontal"/>
+            android:gravity="center|center_horizontal"
+            android:layout_marginTop="5dp" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -32,39 +33,40 @@
         android:layout_weight="5">
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="140dp"
             android:paddingLeft="24dp"
             android:paddingRight="24dp"
             android:src="@drawable/pc3"
             android:gravity="center|center_horizontal"
             android:id="@+id/imageView3"
-            android:layout_marginLeft="160dp"
-            android:layout_marginStart="152dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginStart="160dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="50dp" />
+            android:layout_alignBottom="@+id/textView3" />
         <ImageView
             android:id="@+id/im_bt"
             android:layout_width="wrap_content"
-            android:layout_height="150dp"
+            android:layout_height="140dp"
             android:paddingLeft="24dp"
             android:paddingRight="24dp"
             android:textSize="30dp"
             android:src="@drawable/pc5"
-            android:layout_marginRight="188dp"
-            android:layout_marginEnd="188dp"
-            android:layout_alignParentTop="true"
+            android:layout_alignTop="@+id/imageView3"
             android:layout_alignRight="@+id/imageView3"
-            android:layout_alignEnd="@+id/imageView3" />
+            android:layout_alignEnd="@+id/imageView3"
+            android:layout_marginRight="150dp"
+            android:layout_marginEnd="160dp" />
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:text="@string/content5_5"
             android:id="@+id/textView2"
             android:layout_below="@+id/imageView3"
-            android:layout_marginTop="50dp" />
+            android:layout_alignParentBottom="false"
+            android:layout_marginTop="5dp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -72,7 +74,7 @@
             android:text="ใยแก้วนำแสง [ Patch Cord]"
             android:id="@+id/textView3"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="220dp"
+            android:layout_marginTop="200dp"
             android:textSize="20dp"
             android:textStyle="bold" />
     </RelativeLayout>

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:clipChildren="false"
-    android:background="@android:color/holo_purple"
+    android:background="@color/switch_thumb_normal_material_light"
     android:weightSum="6">
 
     <RelativeLayout
@@ -22,7 +22,8 @@
             android:textSize="30dp"
             android:textColor="#ffff"
             android:background="#000000"
-            android:gravity="center|center_horizontal"/>
+            android:gravity="center|center_horizontal"
+            android:layout_marginTop="5dp" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -32,22 +33,24 @@
         android:layout_weight="5">
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="170dp"
             android:paddingLeft="24dp"
             android:paddingRight="24dp"
             android:src="@drawable/tes3"
             android:gravity="center|center_horizontal"
-            android:layout_marginTop="20dp" />
+            android:layout_marginTop="15dp"
+            android:layout_alignParentTop="true" />
         <ImageView
             android:id="@+id/im_bt"
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
             android:paddingLeft="24dp"
             android:paddingRight="24dp"
             android:textSize="30dp"
             android:src="@drawable/tes4"
             android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true" />
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="true" />
     </RelativeLayout>
 
 
@@ -55,6 +58,6 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:background="@android:color/transparent"/>
+        android:background="@color/switch_thumb_normal_material_light"/>
 
 </LinearLayout>
