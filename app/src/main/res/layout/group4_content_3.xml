@@ -32,11 +32,25 @@
         android:layout_weight="5">
         <ImageView
             android:layout_width="300dp"
-            android:layout_height="300dp"
-            android:paddingLeft="24dp"
-            android:paddingRight="24dp"
+            android:layout_height="260dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
             android:src="@drawable/tes5"
-            android:gravity="center|center_horizontal"/>
+            android:gravity="center|center_horizontal"
+            android:id="@+id/imageView2"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/content4_3"
+            android:id="@+id/textView"
+            android:layout_marginTop="250dp"
+            android:gravity="top"
+            android:textSize="16dp"
+            android:layout_alignTop="@+id/imageView2" />
+
     </RelativeLayout>
 
 
