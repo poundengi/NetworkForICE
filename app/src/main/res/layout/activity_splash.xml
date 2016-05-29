@@ -3,8 +3,8 @@
     android:id="@+id/splashScreen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primary_dark"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/bn10">
 
 
     <ImageView
@@ -13,21 +13,22 @@
         android:id="@+id/imageView"
         android:src="@drawable/logopbru"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="74dp" />
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/editText"
         android:text="Information Comunication Engineering"
-        android:textSize="25dp"
-        android:textColor="#fff"
+        android:textSize="26dp"
         android:gravity="center_horizontal"
         android:singleLine="false"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="100dp"
         android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:background="#672b8431" />
 
     <TextView
         android:layout_width="match_parent"
@@ -37,11 +38,25 @@
         android:gravity="center_horizontal"
         android:textColor="#fff"
         android:textIsSelectable="false"
-        android:textSize="30dp"
+        android:textSize="32dp"
         android:textStyle="bold"
-        android:layout_below="@+id/editText"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="20dp" />
+        android:layout_marginBottom="52dp"
+        android:layout_alignBottom="@+id/editText"
+        android:background="#672b8431" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fiber Optic Information"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/imageView"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:background="#672b8431" />
 
 </RelativeLayout>

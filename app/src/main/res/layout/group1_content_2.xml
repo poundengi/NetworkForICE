@@ -88,7 +88,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="24dp"
             android:paddingRight="24dp"
-            android:layout_marginTop="112dp"
+            android:layout_marginTop="120dp"
             android:textSize="20dp"
             android:textColor="#ffff"
             android:gravity="top"
@@ -97,14 +97,14 @@
         <ScrollView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp">
+            android:layout_marginTop="25dp">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="24dp"
                 android:paddingRight="24dp"
                 android:layout_marginTop="132dp"
-                android:textSize="20dp"
+                android:textSize="18dp"
                 android:textColor="#ffff"
                 android:gravity="top"
                 android:text="@string/content2_7"/>

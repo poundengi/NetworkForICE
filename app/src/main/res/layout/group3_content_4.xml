@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:clipChildren="false"
-    android:background="@color/hint_foreground_material_dark"
+    android:background="@drawable/bn4"
     android:weightSum="6">
 
     <RelativeLayout
@@ -23,7 +23,9 @@
             android:textColor="#ffff"
             android:background="#000000"
             android:gravity="center|center_horizontal"
-            android:layout_marginTop="5dp" />
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
     </RelativeLayout>
 
     <RelativeLayout

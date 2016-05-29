@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:clipChildren="false"
-    android:background="@color/hint_foreground_material_dark"
+    android:background="@drawable/bn9"
     android:weightSum="6">
 
     <RelativeLayout
@@ -23,7 +23,9 @@
             android:textColor="#ffff"
             android:background="#000000"
             android:gravity="center|center_horizontal"
-            android:layout_marginTop="5dp" />
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -41,7 +43,8 @@
             android:id="@+id/imageView2"
             android:layout_alignParentTop="false"
             android:layout_centerHorizontal="true"
-            android:layout_alignParentBottom="false" />
+            android:layout_alignParentBottom="false"
+            android:layout_marginTop="5dp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -54,16 +57,25 @@
             android:textStyle="bold"
             android:layout_alignBottom="@+id/imageView2" />
 
-        <TextView
+        <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="@string/content4_3"
-            android:id="@+id/textView"
-            android:textSize="16dp"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="false"
-            android:layout_below="@+id/textView5" />
+            android:id="@+id/scrollView2"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/content4_3"
+                android:id="@+id/textView"
+                android:textSize="16dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="false"
+                android:layout_below="@+id/textView5"
+                android:textColor="#ffffff" />
+        </ScrollView>
 
     </RelativeLayout>
 
