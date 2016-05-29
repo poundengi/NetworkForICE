@@ -26,6 +26,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp" />
+
     </RelativeLayout>
 
     <RelativeLayout
@@ -35,61 +36,46 @@
         android:layout_weight="5">
 
         <ImageView
-            android:id="@+id/im_bt"
-            android:layout_width="wrap_content"
-            android:layout_height="140dp"
-            android:paddingLeft="24dp"
-            android:paddingRight="24dp"
-            android:textSize="30dp"
-            android:src="@drawable/f1"
-            android:layout_alignTop="@+id/imageView3"
-            android:layout_alignRight="@+id/imageView3"
-            android:layout_alignEnd="@+id/imageView3"
-            android:layout_marginRight="150dp"
-            android:layout_marginEnd="160dp"
-            android:layout_marginTop="15dp" />
-
-        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="140dp"
-            android:paddingLeft="24dp"
-            android:paddingRight="24dp"
-            android:src="@drawable/pc3"
-            android:gravity="center|center_horizontal"
-            android:id="@+id/imageView3"
-            android:layout_marginLeft="150dp"
-            android:layout_marginStart="160dp"
-            android:layout_alignParentTop="true"
+            android:layout_height="200dp"
+            android:id="@+id/imageView6"
+            android:src="@drawable/pc1"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignBottom="@+id/textView3" />
+            android:layout_alignParentStart="true" />
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:text="ใยแก้วนำแสง [ Patch Cord]"
             android:id="@+id/textView3"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="200dp"
             android:textSize="20dp"
             android:textStyle="bold"
-            android:textColor="#ff0000" />
+            android:textColor="#ffffff"
+            android:background="#88060606"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="200dp"
+            android:gravity="center_horizontal" />
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/scrollView"
-            android:layout_below="@+id/textView3">
+            android:background="#88060606"
+            android:layout_marginTop="60dp"
+            android:layout_alignTop="@+id/textView3">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/content5_5"
                 android:id="@+id/textView2"
-                android:layout_below="@+id/imageView3"
-                android:layout_alignParentBottom="false"
-                android:layout_marginTop="5dp"
-                android:textColor="#ff2300" />
+                android:layout_marginTop="40dp"
+                android:textColor="#ffffff"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
         </ScrollView>
 
     </RelativeLayout>

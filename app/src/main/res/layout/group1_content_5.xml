@@ -35,7 +35,8 @@
         android:id="@+id/screen_heading"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:background="#67ffd7d7">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -59,7 +60,8 @@
             android:id="@+id/screen_desc1"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="4">
+            android:layout_weight="4"
+            android:background="#67ffd7d7">
         <ScrollView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">

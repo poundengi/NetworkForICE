@@ -28,7 +28,8 @@
         android:id="@+id/screen_heading"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="5">
+        android:layout_weight="5"
+        android:background="#760e0a0a">
 
         <TextView
             android:layout_width="match_parent"
