@@ -35,24 +35,27 @@
         android:layout_weight="5">
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="150dp"
             android:paddingLeft="24dp"
             android:paddingRight="24dp"
             android:textSize="30dp"
-            android:src="@drawable/fbw3"
+            android:src="@drawable/fot3"
             android:gravity="center|center_horizontal"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="25dp" />
+            android:layout_marginTop="25dp"
+            android:id="@+id/imageView9" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="24dp"
             android:paddingRight="24dp"
             android:textSize="30dp"
-            android:src="@drawable/fbw4"
-            android:layout_alignParentBottom="true"/>
+            android:src="@drawable/fot4"
+            android:layout_below="@+id/imageView9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
     </RelativeLayout>
 
 

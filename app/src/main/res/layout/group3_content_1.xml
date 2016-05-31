@@ -35,21 +35,26 @@
         android:layout_weight="5">
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="150dp"
             android:paddingLeft="24dp"
             android:paddingRight="24dp"
             android:textSize="30dp"
-            android:src="@drawable/fbw1"
+            android:src="@drawable/fot1"
             android:gravity="center|center_horizontal"
-            android:layout_marginTop="25dp" />
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/imageView8"
+            android:layout_alignEnd="@+id/imageView8"
+            android:layout_marginRight="56dp"
+            android:layout_marginEnd="56dp" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="24dp"
             android:paddingRight="24dp"
             android:textSize="30dp"
-            android:src="@drawable/fbw2"
-            android:layout_alignParentBottom="true"/>
+            android:src="@drawable/fot2"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/imageView8" />
     </RelativeLayout>
 
 
